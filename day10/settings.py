@@ -27,7 +27,7 @@ SECRET_KEY = config("SECRET_KEY", default="default123")
 DEBUG =config("DEBUG", default=True, cast=bool)
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
